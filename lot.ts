@@ -1,0 +1,1 @@
+export const calcLot = (a: any) => a.lotMode === "fixed" ? a.fixedLot : (a.balance / 1000) * a.multiplier;
